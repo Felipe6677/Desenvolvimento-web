@@ -1,13 +1,9 @@
-function ehMaior(a, b) {
-  return a > b;
-}
-console.log(ehMaior(10, 5));   // true
-console.log(ehMaior(2, 8));    // false
-console.log(ehMaior(7, 7));    // false
+// 1. Definição da função ehMaior
 function ehMaior(a, b) {
   return a > b;
 }
 
+// 2. Casos de teste
 console.log(ehMaior(10, 5));   // true
 console.log(ehMaior(2, 8));    // false
 console.log(ehMaior(7, 7));    // false
